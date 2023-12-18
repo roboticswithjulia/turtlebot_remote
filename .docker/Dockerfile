@@ -37,6 +37,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     ros-$ROS_DISTRO-rviz \
     ros-$ROS_DISTRO-usb-cam \
     ros-$ROS_DISTRO-xacro \
+    ros-$ROS_DISTRO-ecl-threads \
+    ros-$ROS_DISTRO-ecl-geometry \
+    ros-$ROS_DISTRO-ecl-streams \
+    ros-$ROS_DISTRO-kdl-conversions \
+    ros-$ROS_DISTRO-image-geometry \
+    ros-$ROS_DISTRO-diagnostics \
+    ros-$ROS_DISTRO-robot-state-publisher \
+    ros-$ROS_DISTRO-kobuki-driver \
+    ros-$ROS_DISTRO-kobuki-ftdi \
+    ros-$ROS_DISTRO-kobuki-core \
+    ros-$ROS_DISTRO-kobuki-dock-drive \
     ros-$ROS_DISTRO-joy \
     ros-$ROS_DISTRO-image-transport \
     ros-$ROS_DISTRO-image-transport-plugins \
