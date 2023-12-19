@@ -45,3 +45,24 @@ sudo chown -R $USER /dev_ws
 ### terminal 
 
 Terminator is installed in the container for multiple terminals launch terminator from the CLI inside the container. Run `terminator` to start.
+
+## navigation
+
+for gmapping run
+
+```bash
+roslaunch turtlebot_navigation gmapping_demo.launch
+```
+
+to sav map run
+    
+```bash
+rosrun map_server map_saver -f ~/map
+```
+
+for navigation run (map in launch file)
+
+```bash
+roslaunch turtlebot_navigation amcl_demo_iaac.launch
+```
+
