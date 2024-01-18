@@ -60,6 +60,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     ros-$ROS_DISTRO-compressed-image-transport \
     ros-$ROS_DISTRO-theora-image-transport \
     ros-$ROS_DISTRO-rosbridge-suite \
+    ros-$ROS_DISTRO-visp \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /
